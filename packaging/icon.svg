@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f46"/>
+      <stop offset="1" stop-color="#15181c"/>
+    </linearGradient>
+    <linearGradient id="metallo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe4ec"/>
+      <stop offset="1" stop-color="#9aa2ae"/>
+    </linearGradient>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd34d"/>
+      <stop offset="1" stop-color="#e0a000"/>
+    </linearGradient>
+  </defs>
+  <!-- connettore USB-A -->
+  <rect x="50" y="12" width="28" height="20" rx="3" fill="url(#metallo)"/>
+  <rect x="56" y="16" width="4" height="5" fill="#4a4f57"/>
+  <rect x="68" y="16" width="4" height="5" fill="#4a4f57"/>
+  <!-- corpo del disco (forma Samsung T1) -->
+  <rect x="26" y="28" width="76" height="80" rx="16" fill="url(#corpo)" stroke="#000000" stroke-opacity="0.35"/>
+  <rect x="32" y="33" width="64" height="10" rx="5" fill="#ffffff" opacity="0.08"/>
+  <!-- LED di attivita' -->
+  <circle cx="40" cy="48" r="6" fill="#39a0ff" opacity="0.25"/>
+  <circle cx="40" cy="48" r="3.5" fill="#39a0ff"/>
+  <!-- lucchetto -->
+  <path d="M76 66 v-10 a14 14 0 0 1 28 0 v10" fill="none" stroke="#b97900" stroke-width="8"/>
+  <rect x="68" y="64" width="44" height="38" rx="9" fill="url(#oro)" stroke="#a06a00"/>
+  <circle cx="90" cy="80" r="5" fill="#5d3c00"/>
+  <rect x="88" y="80" width="4" height="12" rx="2" fill="#5d3c00"/>
+</svg>

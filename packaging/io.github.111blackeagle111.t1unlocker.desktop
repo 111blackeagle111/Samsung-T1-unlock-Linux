@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=T1 Unlocker
+GenericName=Samsung Portable SSD T1 Unlocker
+Comment=Unlock and mount a Samsung Portable SSD T1 on Linux
+Exec=t1-unlocker
+Icon=t1-unlocker
+Categories=System;Utility;
+StartupWMClass=t1-unlocker
+Terminal=false
