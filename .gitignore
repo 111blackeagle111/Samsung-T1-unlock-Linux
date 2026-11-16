@@ -1,0 +1,9 @@
+build/
+AppDir/
+*.AppImage
+linuxdeploy*.AppImage
+plugin-gtk*.AppImage
+linuxdeploy-plugin-gtk
+packaging/icon_48.png
+packaging/icon_128.png
+packaging/icon_256.png

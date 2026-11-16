@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.111blackeagle111.t1unlocker</id>
+  <name>T1 Unlocker</name>
+  <summary>Unlock the Samsung Portable SSD T1 on Linux</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <description><p>GUI app to unlock the hardware-encrypted Samsung Portable SSD T1 on Linux, no Windows required.</p></description>
+  <launchable type="desktop-id">io.github.111blackeagle111.t1unlocker.desktop</launchable>
+  <releases><release version="0.1.0" date="2026-11-15"/></releases>
+</component>
